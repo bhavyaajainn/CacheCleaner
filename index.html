@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="card">
+        <h2>CacheCleaner</h2>
+        <img src="icons/clean48.png" />
+        <form  id="cacheCleanForm" method="post">
+            <label>
+                <input type="checkbox" name="clearCache" value="clearCache" class="checkbox" checked> Clear Cache
+            </label><br><br>
+            <label>
+                <input type="checkbox" name="clearCookies" value="clearCookies" class="checkbox" checked> Clear Cookies
+            </label><br><br>
+            <label>
+                <input type="checkbox" name="clearHistory" value="clearHistory" class="checkbox" checked> Clear History
+            </label><br><br><br>
+            <button type="submit">Clean Now</button>
+        </form>
+        <div id="message" class="message"></div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
